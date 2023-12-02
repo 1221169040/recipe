@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap');
+
+/* #0D0D0D - BLACK
+   #F2F2F2 - WHITE
+   #7ABFBF - TEAL
+   rgba(122, 191, 191, .5) - LIGHT GREEN
+   #EB5428 - ORANGE */
+
+html {
+  background-color: rgba(122, 191, 191, .5);
+}
+
+body {
+  background-color: #F2F2F2;
+  width: 414px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+
+header h1 {
+    position: relative;
+    top: 90px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+header nav {
+    
+}
+
+header ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: .5fr .5fr .5fr .5fr;
+    
+}
+
+header li {
+
+}
+
+header a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-right: 50%;
+    color: #EB5428;
+}
+
+#navMain {
+    width: 414px;
+    height: 100px;
+    margin-top: -40px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#hamburger {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#logo {
+    position: relative;
+    background-color: #EB5428;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+    padding-bottom: 8px;
+}
+
+#avatar {
+    position: relative;
+    top: -50px;
+    right: -30px;
+}
+
+#search {
+    width: 414px;
+    margin: auto;
+    position: relative;
+    top: -3200px;
+}
+
+input {
+    border-color: #EB5428;
+}
+
+button {
+    border-color: #EB5428;
+    
+}
+
+label {
+visibility: hidden;
+}
+
+.mainDishes {
+    display: none;
+    visibility: hidden;
+}
+
+#navMain img {
+    width: 40px;
+    height: 40px;
+}
+
+#navMain ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: .5fr .5fr .5fr .5fr .5fr .5fr .5fr;
+}
+
+#navMain li {
+    list-style: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: #eb5428;
+}
+
+#navSocial ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: .5fr .5fr .5fr .5fr;
+}
+
+#navMain a, #navSocial a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-right: 50%;
+    color: #EB5428;
+}
+
+#mainNav h2 {
+    visibility: hidden;
+}
+
+#navMain svg {
+    width: 40px;
+    height: 40px;
+}
+
+h2 {
+    text-align: center;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+dd {
+   margin-left: -110px;
+}
+
+#ingredients li {
+    padding-bottom: 10px;
+}
+
+#directions li {
+    padding-bottom: 20px;
+}
+
+#sideDishes {
+    background-color: #7ABFBF;
+    padding-top: 10px;
+}
+
+#sideDishes img {
+    width: 35%;
+    height: 35%;
+    padding-left: 10px;
+    margin-bottom: -40px;
+    float: left;
+}
+
+#sideDishes h3 {
+    display: inline-block;
+    margin-bottom: -25px;
+    margin-left: 10px;
+}
+
+#sideDishes h4 {
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+#sideDishes p {
+    margin-left: 10px;
+}
+
+.stars {
+    display: inline;
+    padding-left: 160px;
+}
+
+.rating {
+    visibility: hidden;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    
+}
+
+footer h2, footer h3 {
+    visibility: hidden;
+    margin-top: -90px;
+}
+
+footer img {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    bottom: 60px;
+    left: 100px;
+}
+
+footer small:first-of-type {
+    visibility: hidden;
+}
+
+small {
+    position: relative;
+    bottom: -200px;
+    display: block;
+    text-align: center;
+}
+
+/* FONTS, TEXT SIZING */
+h1, h2, h3, nav a, nav span, menu li, #navSocial li, footer {
+    font-family: 'Bebas Neue', serif;
+    font-weight: 400;
+}
+
+p, dd, li, nav, input {
+    font-family: 'Montserrat', serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+dt {
+    font-family: 'Montserrat', serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+nav a, nav span, menu li, #navSocial li, footer {
+    font-size: 20px;
+}
