@@ -25,19 +25,11 @@ header h1 {
     margin-bottom: 90px;
 }
 
-header nav {
-    
-}
-
 header ul {
     list-style-type: none;
     display: grid;
     grid-template-columns: .5fr .5fr .5fr .5fr;
     
-}
-
-header li {
-
 }
 
 header a {
@@ -89,10 +81,6 @@ header a {
     margin: auto;
     position: relative;
     top: -3200px;
-}
-
-input {
-    border-color: #EB5428;
 }
 
 button {
@@ -275,4 +263,142 @@ h3 {
 
 nav a, nav span, menu li, #navSocial li, footer {
     font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        width: 768px;
+    }
+
+    header {
+        padding-top: 50px;
+    }
+
+    header h1 {
+    text-align: left;
+    }
+    
+
+    #navRecipe {
+        background-color: #F2F2F2;
+    }
+
+    #navMain {
+        width: 768px;
+        height: 200px;
+    }
+    
+    .mainDishes {
+        visibility: visible;
+        position: relative;
+        top: 80px;
+        left: -60px;
+    }
+
+    #search {
+        position: relative;
+        top: -3700px;
+        background-color: #EB5428;
+        right: -190px;
+        z-index: 1;
+    }
+
+    dl {
+        text-align: center;
+        padding-left: 150px;
+    }
+    
+    dd {
+       margin-right:200px;
+    }
+
+    #sideDishes {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    body {
+        width: 1280px;
+    }
+
+    #navMain {
+        width: 1280px;
+    }
+
+    #navRecipe {
+        display: inline;
+        float: left;
+    }
+
+    #search {
+        display: none;
+    }
+
+    img {
+        width: 40%;
+        height: 50%;
+        float: left;
+    }
+
+    #details {
+        background-color: #0D0D0D;
+        color: #7ABFBF;
+        margin-top: 650px;
+       
+    }
+    dl {
+        text-align: center;
+        width: 100%;
+        display: flex;
+        margin-top: 10px;
+    }
+    
+    dt {
+        margin-left: -50px;
+    }
+
+    dd {
+       display: flex;
+       padding-top: 20px;
+       padding-left: 20px;
+       text-align: center;
+       justify-content: center; 
+    }
+
+    #ingredients {
+        float: left;
+        width: 20%;
+    }
+
+    #sideDishes {
+        margin-top: 180px;
+        grid-template-columns: 1fr;
+    }
+
+    #sideDishes img {
+        width: 20%;
+        height: 20%;
+    }
+    
+    #navSocial {
+        position: relative;
+        bottom: -100px;
+        background-color: #F2F2F2;
+    }
+
+    footer img {
+        width: 20%;
+        height: 20%;
+        padding-top: 100px;
+        position: relative;
+        left: -900px;
+    }
+
+    footer small {
+        float: left;
+        position: relative;
+        left: -700px;
+    }
+
 }
